@@ -1,0 +1,82 @@
+html, body {
+				padding: 0;
+				margin: 0;
+			}
+			body, div, p {
+				
+			}
+			body {
+				background-color: #eee;
+			}
+			#heroCarouselContainer.wrapper {
+				width: 1000px;
+				font-family: Arial, Helvetica, Verdana;
+				color: #333;
+				
+			}
+			#heroCarouselContainer.list_carousel {
+				background-color: #ccc;
+				width: 1000px;
+			}
+			#heroCarouselContainer.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			#heroCarouselContainer.list_carousel ul li {
+				text-align: center;
+				background-color: #fff;
+				width: 1000px;
+				height: 450px;
+				padding: 0;
+				display: block;
+				float: left;
+			}
+			#heroCarouselContainer.list_carousel.responsive {
+				width: auto;
+				margin-left: 0;
+			}
+			#heroCarouselContainer .clearfix {
+				float: none;
+				clear: both;
+			}
+			#heroCarouselContainer .prev1 {
+				float: left;
+				margin-left: 10px;
+			}
+			#heroCarouselContainer .next1 {
+				float: right;
+				margin-right: 10px;
+			}
+			
+			#heroCarouselContainer .slide1_home, #heroCarouselContainer .slide2_home, #heroCarouselContainer .slide3_home, #heroCarouselContainer .slide4_home, #heroCarouselContainer .slide5_home{width: 1000px; overflow: hidden;}
+			#heroCarouselContainer .slide1_home p, #heroCarouselContainer .slide2_home p, #heroCarouselContainer .slide3_home p, #heroCarouselContainer .slide4_home p, 
+			#heroCarouselContainer .slide5_home p{text-align: center; padding : 5px 20px; font-weight: normal;font-size: 13px;line-height: 20px;}
+			#heroCarouselContainer .pull-left{float: left}
+			#heroCarouselContainer #prev2, #heroCarouselContainer #next2{width:45px; height: 50px;position: relative; top: -10px;
+			background: url('../images/miscellaneous_sprite.png') no-repeat; background-position: -50px -50px}
+			#heroCarouselContainer #prev2{left: 875px; background: url('../images/miscellaneous_sprite.png') no-repeat; background-position: 0 -50px}
+			#heroCarouselContainer #next2{left: 0px;}
+			#heroCarouselContainer p.position1{width:150px;margin-left:15%}
+			
+			
+			#heroCarouselContainer .slide1_home .photo{width: 320px;margin-left: 9%; margin-top: 5%}
+			#heroCarouselContainer .slide2_home .photo{width: 340px;margin-left: 5%; margin-top: 4%}
+			#heroCarouselContainer .slide3_home .photo{width: 360px;margin-left: 5%; margin-top: 1%}
+			#heroCarouselContainer .slide4_home .photo1{width: 150px;margin-left: 3%; margin-top: 0%}
+			#heroCarouselContainer .slide4_home .photo2{width: 260px;margin-left: 0%; margin-top: 15%}
+			#heroCarouselContainer .slide5_home .photo1{width: 320px;margin-left: 3%; margin-top: 13%}
+			#heroCarouselContainer .slide5_home .photo2{position: relative;float:left; width: 192px;margin-top:1%}
+			
+			
+			
+			#heroCarouselContainer .slide1_home .copyLatest{width: 370px;margin-top: 5%}
+			#heroCarouselContainer .slide2_home .copyLatest{width: 370px;margin-top: 2%}
+			#heroCarouselContainer .slide3_home .copyLatest{width: 480px;margin-top: 4%}
+			#heroCarouselContainer .slide4_home .copyLatest{width: 550px;margin-top: 0%}
+			#heroCarouselContainer .slide5_home .copyLatest{width: 415px;margin-top: 2%}
+			#heroCarouselContainer .slide4_home .copyLatest p{padding: 0px;margin-top: 5px; margin-bottom: 7px;line-height:17px;}
+			#heroCarouselContainer .slide5_home .copyLatest p{margin-top: 5px; margin-bottom: 7px;line-height:18px;padding:0 10px;}
+			
+			footer.splash{background-position: 0 -148px;}
