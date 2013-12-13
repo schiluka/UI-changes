@@ -54,11 +54,13 @@ html, body {
 			#heroCarouselContainer .slide1_home p, #heroCarouselContainer .slide2_home p, #heroCarouselContainer .slide3_home p, #heroCarouselContainer .slide4_home p, 
 			#heroCarouselContainer .slide5_home p{text-align: center; padding : 5px 20px; font-weight: normal;font-size: 13px;line-height: 20px;}
 			#heroCarouselContainer .pull-left{float: left}
-			#heroCarouselContainer #prev2, #heroCarouselContainer #next2{width:45px; height: 50px;position: relative; top: -10px;
+			#heroCarouselContainer #prev2, #heroCarouselContainer #next2{width:45px; height: 50px;position: relative; top: -9px;
 			background: url('../images/miscellaneous_sprite.png') no-repeat; background-position: -50px -50px}
-			#heroCarouselContainer #prev2{left: 875px; background: url('../images/miscellaneous_sprite.png') no-repeat; background-position: 0 -50px}
+			#heroCarouselContainer #prev2{left: 835px; background: url('../images/miscellaneous_sprite.png') no-repeat; background-position: 0 -50px}
 			#heroCarouselContainer #next2{left: 0px;}
 			#heroCarouselContainer p.position1{width:150px;margin-left:15%}
+			#heroCarouselContainer .pause{position: relative; top: -10px;left: 840px;width:45px; height: 50px;background: url('../images/miscellaneous_sprite.png') no-repeat;background-position: -150px -50px;float:left}
+			#heroCarouselContainer .pause.paused{background-position: -100px -50px;}
 			
 			
 			#heroCarouselContainer .slide1_home .photo{width: 320px;margin-left: 9%; margin-top: 5%}
@@ -68,7 +70,7 @@ html, body {
 			#heroCarouselContainer .slide4_home .photo2{width: 260px;margin-left: 0%; margin-top: 15%}
 			#heroCarouselContainer .slide5_home .photo1{width: 320px;margin-left: 3%; margin-top: 13%}
 			#heroCarouselContainer .slide5_home .photo2{position: relative;float:left; width: 192px;margin-top:1%}
-			.fixedSlide .photo{width: 320px;margin-left: 8%; margin-top: 10%;float: left}
+			.fixedSlide .photo{width: 320px;margin-left: 8%; margin-top: 7%;float: left}
 			
 			
 			#heroCarouselContainer .slide1_home .copyLatest{width: 370px;margin-top: 5%}
@@ -78,10 +80,11 @@ html, body {
 			#heroCarouselContainer .slide5_home .copyLatest{width: 415px;margin-top: 2%}
 			#heroCarouselContainer .slide4_home .copyLatest p{padding: 0px;margin-top: 5px; margin-bottom: 7px;line-height:17px;}
 			#heroCarouselContainer .slide5_home .copyLatest p{margin-top: 5px; margin-bottom: 7px;line-height:18px;padding:0 10px;}
-			.fixedSlide{width: 1000px;overflow: hidden;border-top: 30px solid #000;border-bottom: 30px solid #000;}
-			.fixedSlide .copyLatest{width: 415px;margin-top: 5%; float: left; margin-bottom: 60px}
+			.fixedSlide{width: 1000px;overflow: hidden;border-top: 0px solid #000;border-bottom: 0px solid #000;}
+			.fixedSlide .blackBrd{background: #000; height: 30px;}
+			.fixedSlide .copyLatest{width: 415px;margin-top: 5%; float: left; margin-bottom: 25px}
 			.fixedSlide .copyLatest p{text-align: center;font-size: 13px;line-height:35px; margin: 0; padding: 0px }
-			footer.splash{background-position: 0 -265px;}
+			footer.splash{background-position: 0 -211px;}
 			.lessPadding{padding-top: 108px !important}
 			
 			.footerHeadings{background:url('../images/bg.jpg') repeat 0px -149px;width: 1000px; height: 120px;float:left; padding-top: 30px;text-align: center;font-family: Times NewRoman; font-size: 22px; padding-bottom: 20px;color: #FFF;text-shadow:2px 2px #201E1E;}
@@ -90,3 +93,7 @@ html, body {
 			.fixedContent .photo{width:350px;margin-left: 9%; margin-top: 5% }
 			.fixedContent .copyLatest{width: 370px;margin-top: 5%}
 			.fixedContent .copyLatest p{text-align: center}
+			.fixedSlide .fixedContentLinks{list-style-type: none; padding: 0; text-align: center; margin: 0 0 0 40%;width: 200px;}
+			.fixedSlide .fixedContentLinks li{padding-right:10px;float:left}
+			.ingrediants{text-align: center}
+			.bold{font-weight: bold; margin-bottom: 0 !important}
