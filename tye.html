@@ -32,10 +32,15 @@
   <div id="container">
     <header>
 		<h1 class="ir">Alexander De Medici - The Youthful Edge</h1>
+		<div class='footerHeadings newHeader' style='display: none'>
+			<p>Chocolate Ecstasy</p>
+			<p>Relaxing Nootropic</p>
+			<p>Energy Drink<sup style='font-size: 17px;top: -15px'>&#0153</sup></p>
+		</div>
     </header>
 		
 			<div id="slides">
-				<nav>
+				<nav id='bigNav'>
 					<ul>
 						<li><a href="#1" id="slide1" class="link">Home</a></li>
 						<li><a href="#2" id="slide2" class="link">The Fountain of Youth in a Bottle</a></li>
@@ -48,6 +53,13 @@
 						<li><a href="#9" id="slide9" class="link">Success Stories</a></li>
 						<li><a href="shopping-cart.html">Shopping Cart</a></li>
 <!-- 						<li><a href="#10" id="slide10" class="link">Shopping Cart</a></li> -->
+					</ul>
+				</nav>
+				<nav id='smallNav'>
+					<ul>
+						<li><a href="#1" id="slide1" class="link">Home</a></li>
+						<li><a href="#15" id="slide15" class="link">Ingredients</a></li>
+						<li><a href="#16" id="slide16" class="link">Comparison Test</a></li>
 					</ul>
 				</nav>
 				<div class="slides_container">					
@@ -190,7 +202,6 @@
 					</div>
 					<div class='copyLatest' style='margin-top: 3%'>
 						<p>The Smart Way to Energize.</p>
-						<p>Most Energy Drinks Energize Your Body.</p>
 						<p>With Excessive Amounts of Caffeine and Sugar.</p>
 						<p>Chocolate Ecstasy Energy Drink&#0153 Eliminates</p>
 						<p>Energy Drink Jitters</p>
@@ -813,12 +824,12 @@ Carcinogens and Other Dangerous Chemicals:  What You Put <em>On</em> Your Body C
 						<p>Royal jelly is a highly concentrated bee food manufactured by bees for the exclusive consumption of the Queen Bee. Royal Jelly has such a unique, high nutritive value that it extends the life span of the Queen Bee over ten times, and although tests have produced life extension in subject animals, no similar tests have been conduicted on humans. Royal jelly also contains all the B-vitamins, vitamins A, C, D, E and K, more than a dozen key minerals, 18 amino acids, including nucleic acids (DNA and RNA), and when ingested with raw honey, pollen and propolis, royal jelly boosts both energy and the immune system.</p> 						
 						</div>
 						<footer>
-		<p>Alexander  De Medici &#8226; The Youthful Edge<sup>TM</sup> &#8226; Formula 4N1<sup>TM</sup> &#8226; Patent Pending</p>
+							<p>Alexander  De Medici &#8226; The Youthful Edge<sup>TM</sup> &#8226; Formula 4N1<sup>TM</sup> &#8226; Patent Pending</p>
 		
-		<p>&#8220;The Fountain of Youth in a Bottle.&#8221; &#8226; For Women and Men of All Ages</p>
+							<p>&#8220;The Fountain of Youth in a Bottle.&#8221; &#8226; For Women and Men of All Ages</p>
 				
-		<p>ALL NATURAL - No Chemicals.  No Petroleum Byproducts. - &copy; 2013 The Youthful Edge, Inc. </p>
-</footer>
+							<p>ALL NATURAL - No Chemicals.  No Petroleum Byproducts. - &copy; 2013 The Youthful Edge, Inc. </p>
+						</footer>
 					</div>
 					<div class="slide">
 						<div class='infoFull ingrediants'>
@@ -845,12 +856,12 @@ Carcinogens and Other Dangerous Chemicals:  What You Put <em>On</em> Your Body C
 							<p>(See "Ingredients")</p>
 						</div>
 						<footer>
-		<p>Alexander  De Medici &#8226; The Youthful Edge<sup>TM</sup> &#8226; Formula 4N1<sup>TM</sup> &#8226; Patent Pending</p>
+							<p>Alexander  De Medici &#8226; The Youthful Edge<sup>TM</sup> &#8226; Formula 4N1<sup>TM</sup> &#8226; Patent Pending</p>
 		
-		<p>&#8220;The Fountain of Youth in a Bottle.&#8221; &#8226; For Women and Men of All Ages</p>
+							<p>&#8220;The Fountain of Youth in a Bottle.&#8221; &#8226; For Women and Men of All Ages</p>
 				
-		<p>ALL NATURAL - No Chemicals.  No Petroleum Byproducts. - &copy; 2013 The Youthful Edge, Inc. </p>
-</footer>
+							<p>ALL NATURAL - No Chemicals.  No Petroleum Byproducts. - &copy; 2013 The Youthful Edge, Inc. </p>
+						</footer>
 					</div>
 							
 								
@@ -882,7 +893,10 @@ Carcinogens and Other Dangerous Chemicals:  What You Put <em>On</em> Your Body C
 						hoverPause: true,
 						effect: 'fade',
 						fadeEasing: "easeOutQuad",
-						fadeSpeed: 200
+						fadeSpeed: 200,
+						animationComplete: function(){
+							$("html, body").animate({ scrollTop: 0 }, "slow");
+						}
 					});
 					
 					$('#heroCarousel').carouFredSel({
@@ -897,8 +911,23 @@ Carcinogens and Other Dangerous Chemicals:  What You Put <em>On</em> Your Body C
 						},
 						onCreate: function(){
 							setTimeout(function(){
-								$('.slides_control').css('height', '1267px');
+								$('.slides_control').css('height', '1230px');
 							},1000);
+						}
+					});
+					
+					$('.link').click(function(){
+						var getId = $(this).attr('id');
+						if(getId === 'slide15' || getId === 'slide16'){
+								$("#bigNav").hide();
+								$('#smallNav').show();
+								$('header').addClass('Chocolet').find('.newHeader').show();
+								$('header h1').hide();
+						}else{
+							$("#bigNav").show();
+							$('#smallNav').hide();
+							$('header').removeClass('Chocolet').find('.newHeader').hide();;
+							$('header h1').show();
 						}
 					});
 			}); 		

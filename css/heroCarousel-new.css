@@ -84,7 +84,7 @@ html, body {
 			.fixedSlide .blackBrd{background: #000; height: 30px;}
 			.fixedSlide .copyLatest{width: 415px;margin-top: 5%; float: left; margin-bottom: 25px}
 			.fixedSlide .copyLatest p{text-align: center;font-size: 13px;line-height:35px; margin: 0; padding: 0px }
-			footer.splash{background-position: 0 -211px;}
+			footer.splash{background-position: 0 -176px;}
 			.lessPadding{padding-top: 108px !important}
 			
 			.footerHeadings{background:url('../images/bg.jpg') repeat 0px -149px;width: 1000px; height: 120px;float:left; padding-top: 30px;text-align: center;font-family: Times NewRoman; font-size: 22px; padding-bottom: 20px;color: #FFF;text-shadow:2px 2px #201E1E;}
@@ -93,7 +93,11 @@ html, body {
 			.fixedContent .photo{width:350px;margin-left: 9%; margin-top: 5% }
 			.fixedContent .copyLatest{width: 370px;margin-top: 5%}
 			.fixedContent .copyLatest p{text-align: center}
-			.fixedSlide .fixedContentLinks{list-style-type: none; padding: 0; text-align: center; margin: 0 0 0 40%;width: 200px;}
+			.fixedSlide .fixedContentLinks{list-style-type: none; padding: 0; text-align: center; margin: 0 0 0 40%;width: 250px;}
 			.fixedSlide .fixedContentLinks li{padding-right:10px;float:left}
-			.ingrediants{text-align: center}
+			.ingrediants{text-align: left !important}
 			.bold{font-weight: bold; margin-bottom: 0 !important}
+			#smallNav{display: none;}
+			#smallNav ul{margin-left: 35%}
+			header.Chocolet{background: none;}
+			.footerHeadings.newHeader{background: none; padding-top: 0; position: absolute;line-height: 25px;top: 0}
