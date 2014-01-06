@@ -67,10 +67,10 @@ html, body {
 			#heroCarouselContainer .slide2_home .photo{width: 340px;margin-left: 5%; margin-top: 4%}
 			#heroCarouselContainer .slide3_home .photo{width: 360px;margin-left: 5%; margin-top: 1%}
 			#heroCarouselContainer .slide4_home .photo1{width: 150px;margin-left: 3%; margin-top: 0%}
-			#heroCarouselContainer .slide4_home .photo2{width: 260px;margin-left: 0%; margin-top: 15%}
+			#heroCarouselContainer .slide4_home .photo2{width: 260px;margin-left: 0%; margin-top: 1%}
 			#heroCarouselContainer .slide5_home .photo1{width: 320px;margin-left: 3%; margin-top: 13%}
 			#heroCarouselContainer .slide5_home .photo2{position: relative;float:left; width: 192px;margin-top:1%}
-			.fixedSlide .photo{width: 320px;margin-left: 8%; margin-top: 7%;float: left}
+			.fixedSlide .photo{width: 320px;margin-left: 6%; margin-top: 7%;float: left}
 			
 			
 			#heroCarouselContainer .slide1_home .copyLatest{width: 370px;margin-top: 5%}
@@ -82,9 +82,9 @@ html, body {
 			#heroCarouselContainer .slide5_home .copyLatest p{margin-top: 5px; margin-bottom: 7px;line-height:18px;padding:0 10px;}
 			.fixedSlide{width: 1000px;overflow: hidden;border-top: 0px solid #000;border-bottom: 0px solid #000;}
 			.fixedSlide .blackBrd{background: #000; height: 30px;}
-			.fixedSlide .copyLatest{width: 415px;margin-top: 5%; float: left; margin-bottom: 25px}
+			.fixedSlide .copyLatest{width: 355px;margin-top: 5%; float: left; margin-bottom: 25px}
 			.fixedSlide .copyLatest p{text-align: center;font-size: 13px;line-height:35px; margin: 0; padding: 0px }
-			footer.splash{background-position: 0 -176px;}
+			footer.splash{background-position: 0 -212px;}
 			.lessPadding{padding-top: 108px !important}
 			
 			.footerHeadings{background:url('../images/bg.jpg') repeat 0px -149px;width: 1000px; height: 120px;float:left; padding-top: 30px;text-align: center;font-family: Times NewRoman; font-size: 22px; padding-bottom: 20px;color: #FFF;text-shadow:2px 2px #201E1E;}
@@ -101,3 +101,10 @@ html, body {
 			#smallNav ul{margin-left: 35%}
 			header.Chocolet{background: none;}
 			.footerHeadings.newHeader{background: none; padding-top: 0; position: absolute;line-height: 25px;top: 0}
+            .circularContent{background: #a4c39b; border: 2px solid #a4c39b;border-radius:25px;color: #000; 
+    text-align: center; width: 220px;margin-left: 30px;}
+.circularContent p{margin-bottom: 0; line-height: 10px !important;} 
+.slide5_home .circularContent{margin-left: 0; margin-top: 30px;width: 225px;} 
+.slide5_home .circularContent p{padding: 0 5px !important;line-height: 22px !important;}
+.fixedSlide .circularContent{float: left; width: 226px;margin-left: 0; margin-top: 10%}
+.fixedSlide .circularContent p{font-size:13px; font-weight: normal;line-height: 22px !important;padding: 10px 15px}
