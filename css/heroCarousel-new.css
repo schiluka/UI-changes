@@ -93,7 +93,8 @@ html, body {
 			.fixedContent .photo{width:350px;margin-left: 9%; margin-top: 5% }
 			.fixedContent .copyLatest{width: 370px;margin-top: 5%}
 			.fixedContent .copyLatest p{text-align: center}
-			.fixedSlide .fixedContentLinks{list-style-type: none; padding: 0; text-align: center; margin: 0 0 0 40%;width: 250px;}
+			.fixedSlide .fixedContentLinks{list-style-type: none; padding: 0; text-align: center; 
+    margin: 0 0 0 33%;width: 100%;}
 			.fixedSlide .fixedContentLinks li{padding-right:10px;float:left}
 			.ingrediants{text-align: left !important}
 			.bold{font-weight: bold; margin-bottom: 0 !important}

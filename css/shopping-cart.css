@@ -1,0 +1,32 @@
+#priceList .subHead{padding: 15px 0 0 0; font-weight: bold}
+#priceList p{font-size: 13px;line-height: 21px;clear: both}
+#priceList p.subHead{font-size: 14px;}
+#priceList p .amtBrf{float: left; width: 250px}
+#priceList p.total{margin-top: 20px;margin-bottom: 20px; float: left; width: 100%; font-weight: bold}
+
+
+#priceList .contactFull{float:left;margin: 25px 70px}
+#priceList .row{width: 100% !important}
+#priceList .product{width:80%;margin: 0 30px 20px 0 !important;border: 1px solid #a4c39b; 
+    padding: 10px 30px;border-radius: 20px;}
+#priceList div.slide{width: 100%}
+.pull-left{float: left}
+#priceList .prodDesc{width: 60%;margin-left:10%}
+#priceList .prodAddCart{width:20%;margin-top:11%}
+#priceList .prodDesc h4{text-align:center}
+
+
+#priceList .product2{width: 83%}
+#priceList .product2 .prodImg{margin-top:10%}
+#priceList .product2 .prodDesc{width: 53%;margin-left:0%}
+#priceList .product2 .prodAddCart{width:15%;margin-top:15%}
+
+#priceList h4{font-size: 1.2em; line-height:21px}
+
+#priceList .product3 .prodImg{margin-top:10%}
+#priceList .product3 .prodDesc{width: 56%;margin-left:1%}
+#priceList .product3 .prodAddCart{width:11%;margin-top:15%; float: right !important}
+
+#priceList .product4 .prodImg{margin-top:3%}
+#priceList .product4 .prodDesc{width: 56%;margin-left:1%}
+#priceList .product4 .prodAddCart{width:11%;margin-top:8%; float: right !important}
