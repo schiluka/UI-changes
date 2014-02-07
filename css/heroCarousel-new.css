@@ -87,7 +87,7 @@ html, body {
 			footer.splash{background-position: 0 -212px;}
 			.lessPadding{padding-top: 108px !important}
 			
-			.footerHeadings{background:url('../images/bg.jpg') repeat 0px -149px;width: 1000px; height: 120px;float:left; padding-top: 30px;text-align: center;font-family: Times NewRoman; font-size: 22px; padding-bottom: 20px;color: #FFF;text-shadow:2px 2px #201E1E;}
+			.footerHeadings{background:url('../images/bg.jpg') repeat 0px -149px;width: 1000px; height: 140px;float:left; padding-top: 30px;text-align: center;font-family: Times NewRoman; font-size: 22px; padding-bottom: 20px;color: #FFF;text-shadow:2px 2px #201E1E;}
 			
 			.fixedContent{width: 1000px; background: #fff;}
 			.fixedContent .photo{width:350px;margin-left: 9%; margin-top: 5% }
